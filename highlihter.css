@@ -1,0 +1,38 @@
+/* Pre Code
+----------------------------------------------- */
+pre,i[rel="pre"]{display:block;font:normal normal 14px "Courier New",Courier,monospace;padding:10px .5em 10px 1em;background-color:#EDF6FF;border:1px solid #6FA9FF;position:relative;overflow:auto;word-wrap:normal;white-space:pre}
+pre code{display:block;color:#111;font:normal normal 14px "Courier New",Courier,monospace;letter-spacing:0;white-space:pre;line-height: 1.4em;}
+pre[rel="HTML"],pre[data-codetype="HTML"]{border-left-color:#4584BE}
+pre[rel="CSS"],pre[data-codetype="CSS"]{border-left-color:#5DA028}
+pre[rel="JavaScript"],pre[data-codetype="JavaScript"]{border-left-color:#bbbbbb}
+pre[rel="JQuery"],pre[data-codetype="JQuery"]{border-left-color:#7073CF}
+pre[rel="JQuery UI"],pre[data-codetype="JQuery UI"]{border-left-color:#E36B23}
+pre[rel="XML"],pre[data-codetype="XML"]{border-left-color:#C44032}
+pre[rel*="+"],pre[data-codetype*="+"]{border-left-color:#B58900}
+pre .comment,pre .template_comment,pre .diff .header,pre .doctype,pre .lisp .string,pre .javadoc{color:#00BB4B;font-style:italic}
+pre .keyword,pre .css .rule .keyword,pre pre .winutils,pre .javascript .title,pre .method,pre .addition,pre .css .tag,pre .lisp .title{color:#859900}
+pre .number,pre .command,pre .string,pre .tag .value,pre .phpdoc,pre .tex .formula,pre .regexp,pre .hexcolor{color:#9B0909}
+pre .title,pre .localvars,pre .function .title,pre .chunk,pre .decorator,pre .builtin,pre .built_in,pre .lisp .title,pre .identifier,pre .title .keymethods,pre .id{color:#103197}
+pre .tag .title,pre .rules .property,pre .django .tag .keyword{font-weight:bold}
+pre .attribute,pre .variable,pre .instancevar,pre .lisp .body,pre .smalltalk .number,pre .constant,pre .class .title,pre .parent,pre .haskell .label{color:#0499D3}
+pre .preprocessor,pre .pi,pre .shebang,pre .symbol,pre .diff .change,pre .special,pre .keymethods,pre .attr_selector,pre .important,pre .subst,pre .cdata{color:#cb4b16}
+pre .literal {font-style: italic;color: #044C9B;}
+pre .deletion{color:#dc322f}
+pre .tex .formula{background:#073642}
+pre.numbered{border-left-width:2px;padding-left:1em}
+pre .line-number,pre.numbered code{padding: 10px 0;display:block;line-height:19px}
+pre .line-number{float:left;margin:0 1em 0 -1em;color:#586E75;border-right:2px solid #711;text-align:right;min-width:35px}
+pre .line-number span{display:block;position:relative;padding:0 .5em 0 1em}
+pre .line-number span:nth-child(even){background-color:#FAFAFA}
+pre .line-number span em{position:absolute;bottom:-1px;left:100%;background-color:orange;padding:0 2px 1px 2px;border:1px solid black;font-style:normal;color:black;display:none}
+pre .line-number span:hover em{display:block}
+pre .line-number span:target a{display:block;color:white;position:relative;background-color:#268bd2;margin:0 -.5em 0 -1em;padding:0 .5em 0 0}
+pre.numbered code span{line-height:12px}
+pre[data-codetype="HTML"] .line-number span:target a{background-color:#4584BE}
+pre[data-codetype="CSS"] .line-number span:target a{background-color:#5DA028}
+pre[data-codetype="JavaScript"] .line-number span:target a{background-color:#bbbbbb}
+pre[data-codetype="JQuery"] .line-number span:target a{background-color:#7073CF}
+pre[data-codetype="JQuery UI"] .line-number span:target a{background-color:#E36B23}
+pre[data-codetype="XML"] .line-number span:target a{background-color:#C44032}
+pre[data-codetype*="+"] .line-number span:target a{background-color:#B58900}
+pre .line-number span:target:before{content:"";display:block;height:150px;margin-top:-150px;visibility:hidden}
